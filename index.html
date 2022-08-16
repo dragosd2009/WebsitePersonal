@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <body>
+    <title>Login</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      .fakeimg {
+        height: 150px;
+        width: fit-content;
+        background: #aaa;
+      }
+    </style>
+    <script defer src="loginScript.js"></script>
+  </head>
+  <body>
+    <div class="p-3 bg-primary text-white text-center">
+      <h3>Dragos-Gabriel Danciulescu - Online Portfolio</h3>
+      <p>Feel free to look around!</p>
+    </div>
+    <!-- up navbar 
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="presentation.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="education.html">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="projects.html">Personal Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="volunteering.html">Volunteering</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-4">
+           <!-- left navbar 
+           <h2 class="mt-4">Links to jump around</h2>
+           <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+               <a class="nav-link" href="presentation.html">
+               <button class="btn default">Home</button>
+               </a>
+               </li>
+               <li class="nav-item">
+               <a class="nav-link" href="education.html">
+               <button class="btn default">Education</button>
+               </a>
+               </li>
+               <li class="nav-item">
+               <a class="nav-link" href="projects.html"> 
+               <button class="btn default">Personal Projects</button>
+               </a>
+               </li>
+               <li class="nav-item">
+               <a class="nav-link" href="volunteering.html">
+               <button class="btn default">Volunteering</button>  
+               </a>
+               </li>
+               </ul>
+          <hr class="d-sm-none" />
+        </div>
+        -->
+      </div>
+    
+    </div>
+    <div id="error"></div>
+    <form id="form" target="_blank" action="presentation.html" method="GET">
+      <div>
+          <label for="username">Username</label>
+          <input id="username" username="username" type="text">
+          <br>
+          <br>
+          <label for="password">Password</label>
+          <input id="password" password="password" type="text">
+      </div>  
+      <br>
+      <button type="submit">Submit</button>
+      <!-- <input onclick="window.location.href = 'presentation.html';" type="submit" value="LOGIN" /> -->
+      
+
+    </form>
+
+    <div class="mt-5 p-4 bg-dark text-white text-center">
+      <p>
+        This website represents a personal project, it is not to be published
+        online, only as a private project on git.
+      </p>
+    </div>
+  </body>
+</html>
